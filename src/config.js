@@ -30,29 +30,29 @@
 
 export default {
   // 博客基础配置
-  title: 'wallleap',
-  subtitle: 'ルー・ワン',
-  description: 'Luwang\'s blog',
-  keywords: 'Luwang, blog, wallleap',
-  logo: './logo.svg',
-  favicon16: './favicon.ico',
-  favicon32: './favicon.ico',
-  createdTime: '2019-08-01',
-  icp: '赣ICP备20000895号-1',
+  title: '克喵的小站',
+  subtitle: 'Ke Miao Blog',
+  description: '一个致力于分享资源和生活的博客~',
+  keywords: '资源, 生活, 分享, 博客',
+  logo: 'https://bu.dusays.com/2024/11/18/673b2f99ebf54.jpg',
+  favicon16: './16.ico',
+  favicon32: './32.ico',
+  createdTime: '2024-11-30',
+  icp: '苏ICP备20005987号-25',
   icpLink: '//beian.miit.gov.cn/',
   beian: '',
   beianLink: '',
   // 关于页二维码
-  alipay_qr: '//cdn.wallleap.cn/img/custom/donate/alipayQr.jpg',
+  alipay_qr: 'https://bu.dusays.com/2024/11/05/6729d786716b3.jpg',
   // GitHub Issues 配置
-  username: 'wallleap',
-  repository: 'myblogs',
+  username: 'kemiaoblog',
+  repository: 'blog',
   friendsRepo: 'friends',
   // 您的信息
-  author: 'Luwang',
-  email: 'luwang@oicode.cn',
-  link: '//luwang.info',
-  github: '//github.com/wallleap',
+  author: '克喵爱吃卤面',
+  email: 'kemiao815@gmail.com',
+  link: 'https://www.261770.xyz',
+  github: '//github.com/Kemiaojun',
   // 友链信息
   name: 'wallleap',
   url: '//myblog.wallleap.cn',
@@ -66,13 +66,13 @@ export default {
   // 评论配置
   utterances: {
     code: `<script src="https://utteranc.es/client.js"
-      repo="wallleap/comments"
-      issue-term="title"
-      label="Comment"
-      theme="github-light"
-      crossorigin="anonymous"
-      async>
-    </script>`,
+        repo="kemiaoblog/blog-comments"
+        issue-term="pathname"
+        label="Comments"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>`,
   },
   twikoo: {
     src: '//cdn.staticfile.org/twikoo/1.6.22/twikoo.all.min.js',
