@@ -44,7 +44,7 @@ jobs:
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: kemiaoblog/kemiaoblog.github.io
-          publish_branch: master
+          publish_branch: main
           user_name: kemiaoblog
           user_email: kemiaodwi@gmail.com
           commit_message: ${{ github.event.head_commit.message }}
@@ -55,4 +55,4 @@ jobs:
           cname: kemiaojun.github.io
       - name: Get the output
         run: |
-       echo "${{ steps.deploy.outputs.notify }}"
+          echo "${{ steps.deploy.outputs.notify }}"
