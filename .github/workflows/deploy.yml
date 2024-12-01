@@ -44,7 +44,7 @@ jobs:
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: kemiaoblog/kemiaoblog.github.io
-          publish_branch: main
+          publish_branch: master
           user_name: kemiaoblog
           user_email: kemiao815@gmail.com
           commit_message: ${{ github.event.head_commit.message }}
