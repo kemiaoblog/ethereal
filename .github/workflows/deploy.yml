@@ -52,7 +52,7 @@ jobs:
           publish_dir: ./dist
           force_orphan: true
           allow_empty_commit: true
-          cname: kemiaojun.github.io
+          cname: 
       - name: Get the output
         run: |
          echo "${{ steps.deploy.outputs.notify }}"
