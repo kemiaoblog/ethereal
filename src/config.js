@@ -52,7 +52,7 @@ export default {
   author: '克喵爱吃卤面',
   email: 'kemiao815@gmail.com',
   link: 'https://www.261770.xyz',
-  github: '//github.com/Kemiaojun',
+  github: '//github.com/kemiaojun',
   // 友链信息
   name: 'wallleap',
   url: '//myblog.wallleap.cn',
